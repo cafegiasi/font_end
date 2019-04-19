@@ -1,0 +1,26 @@
+/* #hover_scroll{position:absolute;display:inline-block;bottom:0;left:0;height:1px;z-index:500;background:#EB0500;-moz-transition:all 0.5s;-o-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;} */
+.ddsmoothmenu{width:1200px;margin:0px auto;position:relative;line-height:35px;height:35px;background:none;}
+.ddsmoothmenu ul{width:100%;z-index:100;display:block;margin:0;padding:0;list-style-type:none;padding-left:30px;}
+.ddsmoothmenu ul li{float:left;margin:0px;padding:0px;}
+.ddsmoothmenu ul li a{text-align:center;display:block;color:#fff;float:left;font-weight:bold;text-transform:uppercase;padding: 0px 9px;font-size: 13px;text-decoration:none;position:relative;}
+* html .ddsmoothmenu ul li a{display:inline-block;}
+.ddsmoothmenu ul li.menu_active a{color:#ff0;}
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{color:#fff;}
+.ddsmoothmenu ul li:hover{background:none;}
+.ddsmoothmenu ul li a.selected ,.ddsmoothmenu ul li a:hover{color:#FF0;}
+.ddsmoothmenu ul li ul{position:absolute;display:none;transition:all 5s;background:#fff;box-shadow:0px 0px 5px #ccc;overflow:visible !important;left:0px !important;width:100% !important;top:94.5% !important;padding:5px 20px 20px 20px;}
+.ddsmoothmenu ul li:hover ul{display:block;}
+.ddsmoothmenu ul li ul li{display:list-item;float:left;width:24%;margin:5px 1% 0px 0px;}
+li.cap2{border-right:1px solid #ccc;}
+.ddsmoothmenu ul li ul li a{width:100%;float:left;height:auto;line-height:1.5;font-size:14px;text-transform:uppercase;position:relative;margin:0px !important;padding:0px 0px 0px 0px;transition:0.3s;color:#333 !important;font-weight:bold;text-align:left;background:none;}
+.ddsmoothmenu ul li ul li a img{max-width:100%;vertical-align:middle;margin:0px;transition:0.3s;display:inline-block;}
+.ddsmoothmenu ul li ul li ul{width:100% !important;padding:5px 5px 0px 5px;box-shadow:none;background:none;margin:0px;position:relative;display:inline-block;}
+.ddsmoothmenu ul li ul li ul li{display:block;width:100%;float:left;height:auto;margin:0px;}
+.ddsmoothmenu ul li ul li ul li a{font-size:13px;text-transform:capitalize;position:relative;margin:0px !important;padding:3px 0px 3px 13px;transition:0.3s;color:#333 !important;font-weight:normal;text-align:left;background:url(../images/li.png) no-repeat left center;}
+.ddsmoothmenu ul li ul li a:hover,.ddsmoothmenu ul li ul a.selected{color:#ee3a2c !important;}
+.ddsmoothmenu ul li ul li ul li:hover{color:#ee3a2c !important;}
+* html .ddsmoothmenu{height:1%;}
+.downarrowclass{position:absolute;top:12px;right:7px;}
+.rightarrowclass{position:absolute;top:6px;right:5px;}
+.ddshadow{position:absolute;left:0;top:0;width:0;height:0;background:silver;}
+.toplevelshadow{opacity:0.8;}

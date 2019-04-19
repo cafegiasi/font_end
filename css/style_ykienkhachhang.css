@@ -1,0 +1,23 @@
+@font-face{font-family:'UTM Neo Sans Intel';src:url('../fonts/UTM%20Neo%20Sans%20Intel.html') format('truetype');font-weight:normal;font-style:normal;}
+[class^="icon-"], [class*=" icon-"]{font-family:'WebHostingHub-Glyphs';background:none;width:auto;height:auto;font-style:normal}
+#ykien_khachhang{margin:0 auto;width:100%;background:#8fa6cc url(../images/ykien_khachhang.html) no-repeat center;height:190px;}
+.background_ykien{margin:0 auto;position:relative;height:360px;}
+#carousel{width:100%;margin:0 auto;}
+#ui-carousel-next, #ui-carousel-prev{width:60px;height:190px;background:url(../images/arrow-left.html) #fff center center no-repeat;display:block;position:absolute;top:0;z-index:100;}
+#ui-carousel-next{right:0;background-image:url(../images/arrow-right.html);}
+#ui-carousel-prev{left:0;}
+#ui-carousel-next > span, #ui-carousel-prev > span{display:none;}
+.text{margin:0;position:relative;}
+div.text h4{font-size:26px;font-family:'UTM Neo Sans Intel';color:#fff;float:left;padding-left:20px;font-weight:normal;margin:0;padding:0;}
+#slide_ykien > .text{position:absolute;left:20px;top:150px;}
+.mota_ykien{font-size:22px;font-family:'UTM Neo Sans Intel';color:#fff;float:right;padding-right:20px;margin:0;padding:0;}
+#pages{margin:0 auto;float:right;z-index:999999999999999;position:relative;top:331px;right:150px;margin:0 auto;}
+.bullet{background:url(../images/page-off.html) center center no-repeat;display:block;width:18px;height:18px;margin:0;margin-right:5px;float:left;}
+.ui-carousel{height:100px;margin:0;overflow:auto;padding:0;position:absolute;width:300px}
+.ui-carousel > .wrapper{margin:0;padding:0;width:9999px;}
+.ui-carousel > .wrapper > *{border:0;display:block;height:100px;overflow:hidden;width:100px;}
+
+.box5{max-width:1250px;width:100%;margin:0 auto;background:url(../images/bgr_box5.html) no-repeat right, #2C7B67;color:#fff;}
+.box5 input,.box5 textarea{background-color:#9cbcb6;border:0px;padding:10px;margin:5px;margin-bottom:5px;margin-right:13px;}
+.sub_box5{width:45%;margin-left:10px;float:left;}
+.lienhe_detail{width:51%;font-size:16px;float:right;color:#fff;text-align:justify;margin-top:10px;margin-right:2%;}
